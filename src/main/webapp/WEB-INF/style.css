@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+.header {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background-color: #b22222;
+    border-bottom: 3px solid black;
+}
+
+.inner_header {
+    width: 90%;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 16px;
+}
+
+.contact-box {
+    width: 560px;
+    height: auto;
+    background-color: #b22222;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.contact-box h1 {
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 35px;
+    transform: translate(39%,25%);
+    margin-top: 30px;
+
+}
+
+.contact-box h2 {
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 37px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-box h3 {
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 25px;
+    transform: translate(16%,25%);
+    margin-top: 30px;
+
+}
+
+.contact-box h4 {
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 20px;
+    transform: translate(29%,160%);
+
+}
+
+.contact-box h5 {
+    color: white;
+    font-family: "Britannic Bold", sans-serif;
+    font-size: 14px;
+    transform: translate(2.5%,109%);
+
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 65px;
+    margin-left: 5px;
+}
+
+th, td, tr {
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+
+form
+{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid black;
+    border-radius: 14px;
+    outline: none;
+}
+
+.btn {
+    width: 200px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 200px;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    border: 3px solid black;
+    cursor: pointer;
+    position: center;
+    transform: translate(88%,96%);
+}
+
+.btn3 {
+    width: 310px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 22px;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    border: 3px solid black;
+    cursor: pointer;
+}
